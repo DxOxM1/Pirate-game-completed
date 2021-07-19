@@ -4,7 +4,7 @@ class Boat {
         restitution: 0.8
       };
       this.body = Bodies.rectangle(x, y,width,height, options);
-      this.image= loadImage("assets/Boat.png")
+      this.image= loadImage("assets/boat.png")
       this.width = width;
     this.height = height;
     this.boatPosition = boatPos;
